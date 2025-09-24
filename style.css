@@ -45,7 +45,7 @@
 }
 .nav-select{
     text-align:center;
-    background-color:#E6E6E6;
+    background-color:#E3E6E6;
     border:none;
 }
 .nav-input{
@@ -216,5 +216,115 @@ button{
     margin-top:20px;
     justify-content:space-evenly;
 }
+.sale-products{
+    background-color:#E3E6E6;
+}
+.outer-heading{
+    display:flex;
+    height:60px;
+    display:flex;
+    align-items:center;
+    margin-left:10px;
+    background-color:white;
+}
+.outer-heading a{
+margin-left:20px;
+text-decoration:none;
+}
+.inner-products{
+    display:flex;
+    justify-content:space-evenly;
+}
+.outer-footer{
+    width:100%;
+    height:70px;
+    background-color:#313f51;
+    margin-top:10px;
+}
+.footer-para{
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:20px;
+}
+.inner-footer{
+    color:white;
+    background-color:#232F3E;
+    width:100%;
+    height:300px;
+}
+.inner-footer{
+    display:flex;
+    justify-content:center;
+    /* padding-top:70px; */
+    padding:10px;
+    justify-content:space-evenly;
+    
+    
+}
+.inner-footer a{
+display:block;
+color:#cccccc;
+font-size:1rem;
+text-decoration:none;
+}
+.footer3{
+    width:100%;
+    height:80px;
+    background-color:#232F3E;
+    border-top:0.25px solid #cccccc;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.footer-logo{
+    width:140px;
+    height:50px;
+    margin-right:100px;
+}
+.footer-button{
+    border:1px solid white;
+    margin-right:20px;
+}
+.footer-button i{
+color:white;
+font-size:1rem;
+padding-left:3px;
+}
+.footer-button select{
+    border:none;
+    background-color:transparent;
+color:white;
+font-size:1rem;
+padding:5px;
+}
+.country{
+    color:white;
+    font-size:1rem;
+    display:flex;
+    border:1px solid white;
+    padding:5px;
+}
+.last-footer{
+    width:100%;
+    height:100px;
+    background-color:#131A22;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
-
+}
+.last-footer a{
+    color:#cccccc;
+    font-size:0.75rem;
+    text-decoration:none;
+    margin-right:20px;
+    
+}
+.rights{
+    display:block;
+    color:#cccccc;
+    font-size:0.75rem;
+}
